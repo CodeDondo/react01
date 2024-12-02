@@ -1,9 +1,7 @@
-export const MainComponent = () => {
+export const Main = () => {
     return (
         <div>
-            <HeaderComponent />
             <h1>Hello</h1>
-            <FooterComponent />
         </div>
     );
 };
