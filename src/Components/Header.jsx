@@ -1,7 +1,5 @@
-export default HeaderComponent;
-
-const HeaderComponent = () => {
+export const HeaderComponent = () => {
     return (
-    <h1>Hello</h1>
+    <h1>Velkommen</h1>
     );
   };

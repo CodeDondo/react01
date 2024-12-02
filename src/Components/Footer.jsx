@@ -1,6 +1,4 @@
-export default FooterComponent;
-
-const FooterComponent = () => {
+export const FooterComponent = () => {
     return (
         <footer>
             <p>Footer</p>

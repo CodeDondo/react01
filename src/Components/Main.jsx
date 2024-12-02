@@ -1,7 +1,4 @@
-import HeaderComponent from './Header.jsx';
-import FooterComponent from './Footer.jsx';
-
-const MainComponent = () => {
+export const MainComponent = () => {
     return (
         <div>
             <HeaderComponent />
