@@ -1,6 +1,6 @@
-export const Button = ({ textValue, classNameValue }) => {
+export const Button = ({ textValue, classNameValue, favoriteDishes }) => {
     const handleClick = () => {
-        console.log("korteleter i fad, adobo, mechado, bøf med løg, gullasch");
+        console.log(favoriteDishes);
     };
 
     return (
