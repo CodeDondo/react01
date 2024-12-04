@@ -1,10 +1,18 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
-const ButtonStyled = styled.button`
-border: solid 2px #000;
-background-color: #fff;
-color: #000;
-padding: 16px;
-margin: 8px;
-cursor: pointer;
+export const ButtonStyled = styled.button`
+    font-size: ${(props) =>
+        props.size === "small"
+            ? "12px"
+            : props.size === "medium"
+            ? "16px"
+            : "20px"};
+    background-color: ${(props) =>
+        props.theme === "light" ? "#fff" : "#333"};
+    color: ${(props) =>
+        props.theme === "light" ? "#333" : "#fff"};
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
 `;
