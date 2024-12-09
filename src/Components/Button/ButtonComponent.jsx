@@ -5,7 +5,7 @@ export const ButtonComponent = ({ action, size, theme, text }) => {
         <ButtonStyled 
             size={size} 
             theme={theme} 
-            onClick={action} // Tilføj handling ved klik
+            onClick={action}
         >
             {text}
         </ButtonStyled>
